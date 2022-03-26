@@ -1,0 +1,656 @@
+{
+    "info": {
+        "added": 1647720833.93277, 
+        "started": 1647754336.821935, 
+        "duration": 714, 
+        "ended": 1647755051.011001, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2870998, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x643", 
+            "label": "Ubuntu1904x643", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-03-20 05:32:17", 
+            "shutdown_on": "2022-03-20 05:44:10"
+        }, 
+        "platform": null, 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-chrome-extension", 
+            "yara": [], 
+            "sha1": "a51d34e199521b0b9e4d9275cd3dec1731e258f1", 
+            "name": "extension_127_2021_8_8.crx", 
+            "type": "Google Chrome extension, version 3", 
+            "sha256": "b80f22448dae58d5a342e161bb585a609e6ca5b7587748473215e913d4d7059d", 
+            "urls": [
+                "http://www.gimp.orgg", 
+                "http://jimmac.musichall.cz"
+            ], 
+            "crc32": "A59CB577", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/b80f22448dae58d5a342e161bb585a609e6ca5b7587748473215e913d4d7059d", 
+            "ssdeep": null, 
+            "size": 47556, 
+            "sha512": "645d56c45fe153c6b4e90b3f91b7459060ab56d7014432f4cc9eddcb48894db106cf3f5d450d276e04482fe50697ebee633e7fe3c4690dd4061aeeecf70545ff", 
+            "md5": "4865da7519cdfcd5687776392c100351"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "9a4bc4a6-c88c-4747-bcc4-900987479aa5", 
+        "parent_file_sha256": null, 
+        "probes_total": 16, 
+        "scan_date": 1647747852, 
+        "name": "b80f22448dae58d5a342e161bb585a609e6ca5b7587748473215e913d4d7059d", 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "Google Chrome extension, version 3", 
+            "sha1": "a51d34e199521b0b9e4d9275cd3dec1731e258f1", 
+            "tags": [], 
+            "timestamp_first_scan": 1647443955.47, 
+            "timestamp_last_scan": 1647747860.69, 
+            "sha256": "b80f22448dae58d5a342e161bb585a609e6ca5b7587748473215e913d4d7059d", 
+            "md5": "4865da7519cdfcd5687776392c100351", 
+            "size": 47556
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.26, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-02-04_03"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.16, 
+                    "version": "1.1.18900.3", 
+                    "results": null, 
+                    "virus_database_version": "1.359.1348.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.11, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-31"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.8, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-03-11 01:06:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.55, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "61ad92b8-1e6f6 (2022-02-04)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.27, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.06, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.94, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.89, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.91093 (04/02/2022)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 4.48, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10247"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.21, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.90 (01 February 2022)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.33, 
+                    "version": "11.1.11.2110182032", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.5", 
+                    "results": null, 
+                    "virus_database_version": "26474"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.18, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.4, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "efd3956b-9a97-42bc-8afc-549b522b2e83", 
+        "file_sha256": "b80f22448dae58d5a342e161bb585a609e6ca5b7587748473215e913d4d7059d"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "9c9685911fc43f46da5d80bbd7ba9bdffb14470c103b68908fe8a99de6906333", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "e0a6d7942eeef36a0abfededa09a054ae08d932e775d6e6af2dde2bebfbf447f", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2093, 
+                "summary": {}, 
+                "first_seen": 1647720847.944551, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 20:14:07 2022.944551 sh@7f87dc097957[2093] execve(\"/tmp/extension_127_2021_8_8.crx\", [\"/tmp/extension_127_2021_8_8.crx\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/extension_127_2021_8_8.crx\", \"SHELL=/bin/bash\", \"S) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7f87dc097957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/extension_127_2021_8_8.crx", 
+                                "SHELL=/bin/bash", 
+                                "\"S"
+                            ], 
+                            "p0": "/tmp/extension_127_2021_8_8.crx", 
+                            "p1": [
+                                "/tmp/extension_127_2021_8_8.crx"
+                            ]
+                        }, 
+                        "time": 1647720847.944551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 20:14:07 2022.944726 sh@7f87dc0c2cce[2093] openat(AT_FDCWD, \"/tmp/extension_127_2021_8_8.crx\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7f87dc0c2cce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/extension_127_2021_8_8.crx"
+                        }, 
+                        "time": 1647720847.944726
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 20:14:07 2022.944762 sh@7f87dc0c2f81[2093] read(3, 0x7ffe50893ea0, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7f87dc0c2f81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7ffe50893ea0"
+                        }, 
+                        "time": 1647720847.944762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 20:14:07 2022.944801 sh@7f87dc0c3674[2093] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f87dc0c3674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1647720847.944801
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 20:14:07 2022.944884 sh@7f87dc0c3024[2093] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7f87dc0c3024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1647720847.944884
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 20:14:07 2022.944935 sh@7f87dc0c3024[2093] write(2, \"/tmp/extension_127_2021_8_8.crx: Exec format \"..., 50) = 50\n", 
+                        "api": "write", 
+                        "return_value": "50", 
+                        "category": "process", 
+                        "instruction_pointer": "7f87dc0c3024", 
+                        "arguments": {
+                            "p2": "50", 
+                            "p0": "2", 
+                            "p1": "\"/tmp/extension_127_2021_8_8.crx: Exec format \"..."
+                        }, 
+                        "time": 1647720847.944935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 20:14:07 2022.944977 sh@7f87dc0c3024[2093] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f87dc0c3024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1647720847.944977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 20:14:07 2022.945033 sh@7f87dc097926[2093] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f87dc097926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1647720847.945033
+                    }
+                ], 
+                "pid": 2093, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1647720847.944551, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2093, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1647720847.944551, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-03-19 20:13:53,002 [root] DEBUG: Starting analyzer from: /tmp/tmpcCMve5\n", 
+            "2022-03-19 20:13:53,003 [root] DEBUG: Storing results at: /tmp/rDqyXD\n", 
+            "2022-03-19 20:13:53,003 [lib.core.packages] INFO: _guess_package_name failed\n", 
+            "2022-03-19 20:13:53,004 [lib.core.packages] INFO: Google Chrome extension, version 3\n", 
+            "2022-03-19 20:13:53,005 [lib.core.packages] INFO: extension_127_2021_8_8.crx\n", 
+            "2022-03-19 20:13:55,777 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-03-19 20:13:56,279 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-03-19 20:13:56,782 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-03-19 20:14:07,938 [lib.core.packages] INFO: Process startup took 11.15 seconds\n", 
+            "2022-03-19 20:14:07,939 [root] INFO: Added new process to list with pid: 2080\n", 
+            "2022-03-19 20:14:19,958 [root] INFO: Process with pid 2080 has terminated\n", 
+            "2022-03-19 20:14:19,959 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-03-19 20:14:22,962 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-03-19 20:14:22,965 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-03-19 20:17:04,001 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-03-19 20:17:04,003 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-03-20 05:32:17,170 [cuckoo.core.scheduler] INFO: Task #2870998: acquired machine Ubuntu1904x643 (label=Ubuntu1904x643)\n", 
+            "2022-03-20 05:32:17,171 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.103 for task #2870998\n", 
+            "2022-03-20 05:32:17,507 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 329177 (interface=vboxnet0, host=192.168.168.103)\n", 
+            "2022-03-20 05:32:17,658 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x643\n", 
+            "2022-03-20 05:32:18,326 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x643 to Snapshot\n", 
+            "2022-03-20 05:36:09,938 [cuckoo.core.guest] INFO: Starting analysis #2870998 on guest (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-03-20 05:36:10,943 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: not ready yet\n", 
+            "2022-03-20 05:36:15,961 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-03-20 05:36:15,974 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x643, ip=192.168.168.103, monitor=latest, size=72028)\n", 
+            "2022-03-20 05:36:16,120 [cuckoo.core.resultserver] DEBUG: Task #2870998: live log analysis.log initialized.\n", 
+            "2022-03-20 05:36:22,993 [cuckoo.core.resultserver] DEBUG: Task #2870998: File upload for 'shots/0001.jpg'\n", 
+            "2022-03-20 05:36:23,019 [cuckoo.core.resultserver] DEBUG: Task #2870998 uploaded file length: 171576\n", 
+            "2022-03-20 05:36:31,307 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:36:46,094 [cuckoo.core.resultserver] DEBUG: Task #2870998: File upload for 'logs/all.stap'\n", 
+            "2022-03-20 05:36:46,098 [cuckoo.core.resultserver] DEBUG: Task #2870998 uploaded file length: 1223\n", 
+            "2022-03-20 05:36:46,378 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:37:01,649 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:37:16,859 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:37:31,968 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:37:47,069 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:38:02,238 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:38:17,323 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:38:32,748 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:38:47,997 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:39:03,062 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2870998 still processing\n", 
+            "2022-03-20 05:39:18,175 [cuckoo.core.guest] INFO: Ubuntu1904x643: end of analysis reached!\n", 
+            "2022-03-20 05:39:18,183 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-03-20 05:39:18,264 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-03-20 05:39:35,879 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x643 to path /srv/cuckoo/cwd/storage/analyses/2870998/memory.dmp\n", 
+            "2022-03-20 05:39:35,894 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x643\n", 
+            "2022-03-20 05:44:10,606 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.103 for task #2870998\n", 
+            "2022-03-20 05:44:10,757 [cuckoo.core.scheduler] DEBUG: Released database task #2870998\n", 
+            "2022-03-20 05:44:10,880 [cuckoo.core.scheduler] INFO: Task #2870998: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "g?%Q!j", 
+        "%s'\\pE", 
+        "addStyle.css", 
+        "HY\\hR ", 
+        "downloader/", 
+        "downloader/tabs.js", 
+        "N%\\MwVn", 
+        "downloader/injection.js}TMo", 
+        "downloader/links.js", 
+        "mlf:%N", 
+        "KHXQ\\C", 
+        "downloader/shiftselect.js", 
+        "#Uv:'i4", 
+        "downloader/downloadPath.js", 
+        "g,PZAp", 
+        "`7\"1 >", 
+        "downloader/download.js", 
+        ".cToXI", 
+        "downloader/hosters.js", 
+        "Tjxk*sR5-", 
+        "vX-JZ1", 
+        "}~|trt", 
+        "_Qsr|@", 
+        "?}KAp/", 
+        "w{4A!A", 
+        "]jQ7;[", 
+        "!w6Wahu{", 
+        "downloader/startupBehavior.js", 
+        "H 18l7", 
+        ")Xjw/l", 
+        "downloader.html", 
+        ";G@Ig ;", 
+        "farewell.html", 
+        "k)NP p", 
+        "RH9w6,", 
+        "icons/", 
+        "icons/icon128.png", 
+        "IDATx^", 
+        "TUWUWWW", 
+        "S-D|S0", 
+        "'Ts[7)J8", 
+        "u\u001fQ=}a", 
+        "@W__vWw0", 
+        "T^W{Wovm]", 
+        "u_J )g", 
+        "0._eY1", 
+        "I#g0GoP!<\\", 
+        "*++Syyy:", 
+        "E*%%E=", 
+        "\u001ff-;;[3", 
+        "h_6.G=", 
+        "W%D#`6", 
+        ">?F7F9~0", 
+        "}D+A2MM", 
+        "ch^Nrxb", 
+        "}IDAT[", 
+        "nb_~9Y", 
+        "r#*Z6(", 
+        "mXYX8N", 
+        "Hy>ga1p&", 
+        "!t(2~<", 
+        "lo>3~/", 
+        "1C(s8:k2", 
+        "+aHNo=", 
+        "icons/icon16.png", 
+        "tEXtComment", 
+        "Menu-sized icon", 
+        "==========", 
+        "(c) 2003 Jakub 'jimmac' Steiner, ", 
+        "http://jimmac.musichall.cz", 
+        "created with the GIMP,", 
+        "http://www.gimp.orgg", 
+        "WIDAT8", 
+        "W%0<-=O", 
+        "/).f||", 
+        "icons/icon48.png", 
+        "IDAThC", 
+        "\")2WZD", 
+        "jvz<[z", 
+        "B%`no\\SY", 
+        "hmm]XYYI", 
+        "9Hcc.R", 
+        "/YFkHP", 
+        "4zhc5-Y", 
+        "L]_9(;%F(", 
+        "mH^i}NfV", 
+        ",sBk=s", 
+        "PuqZ$9", 
+        "w>8I5\\&", 
+        "TUUUDGG", 
+        "*(g111", 
+        "X(..N(", 
+        "LVZZZ(", 
+        "$>J'r\\", 
+        "jg__\u001f~|", 
+        "_locales/", 
+        "_locales/de/", 
+        "_locales/de/messages.json", 
+        "ZN4uz:,", 
+        "KzJZz5", 
+        "7z*cpX", 
+        "w)bB<f", 
+        "M14F0v\u001f", 
+        "E/OI![", 
+        "|yXx?s", 
+        "_locales/en/", 
+        "_locales/en/messages.json", 
+        "HOcj @", 
+        "/P)*k*aU", 
+        "{.3e|A?", 
+        "manifest.json", 
+        ".=H3#{", 
+        "options/", 
+        "options/custom-hosters.js", 
+        "options/options.js", 
+        "=.8>yN", 
+        "options/options.html", 
+        "options/list-hosters.html", 
+        "]HGbtN", 
+        "options/custom-hosters.html", 
+        "options/list-hosters.js", 
+        "LRUmGi", 
+        "text.js", 
+        "OwUG'/", 
+        "sb?@sx", 
+        "-t_BJT", 
+        "variables.js", 
+        "yQcE{*4%", 
+        "*iqokTpPg", 
+        "DC[i)H", 
+        "Z94E8z,", 
+        "window.js", 
+        "_metadata/", 
+        "_metadata/verified_contents.json", 
+        "'G3uG7", 
+        "3dvXW_", 
+        "pknmABDD|", 
+        "K9pd92'U", 
+        "Rgg.+o", 
+        "$FH^<[}n", 
+        "0EJ.Z6", 
+        "addStyle.cssPK", 
+        "downloader/PK", 
+        "downloader/tabs.jsPK", 
+        "downloader/injection.jsPK", 
+        "downloader/links.jsPK", 
+        "downloader/shiftselect.jsPK", 
+        "downloader/downloadPath.jsPK", 
+        "downloader/download.jsPK", 
+        "downloader/hosters.jsPK", 
+        "downloader/startupBehavior.jsPK", 
+        "downloader.htmlPK", 
+        "farewell.htmlPK", 
+        "icons/PK", 
+        "icons/icon128.pngPK", 
+        "icons/icon16.pngPK", 
+        "icons/icon48.pngPK", 
+        "_locales/PK", 
+        "_locales/de/PK", 
+        "_locales/de/messages.jsonPK", 
+        "_locales/en/PK", 
+        "_locales/en/messages.jsonPK", 
+        "manifest.jsonPK", 
+        "options/PK", 
+        "options/custom-hosters.jsPK", 
+        "options/options.jsPK", 
+        "options/options.htmlPK", 
+        "options/list-hosters.htmlPK", 
+        "options/custom-hosters.htmlPK", 
+        "options/list-hosters.jsPK", 
+        "8K>Ruo", 
+        "text.jsPK", 
+        "variables.jsPK", 
+        "window.jsPK", 
+        "_metadata/PK", 
+        "_metadata/verified_contents.jsonPK"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "e0a6d7942eeef36a0abfededa09a054ae08d932e775d6e6af2dde2bebfbf447f", 
+                "dirname": ""
+            }
+        }
+    }
+}
