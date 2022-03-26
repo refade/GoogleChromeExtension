@@ -1,0 +1,555 @@
+{
+    "info": {
+        "added": 1647711728.85788, 
+        "started": 1647724978.24309, 
+        "duration": 711, 
+        "ended": 1647725689.666218, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2869982, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x643", 
+            "label": "Ubuntu1904x643", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-03-19 21:22:59", 
+            "shutdown_on": "2022-03-19 21:34:49"
+        }, 
+        "platform": null, 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-chrome-extension", 
+            "yara": [], 
+            "sha1": "990520a6f893c52a8f6222a973aa2a681821ebdc", 
+            "name": "extension_0_1_6_0.crx", 
+            "type": "Google Chrome extension, version 3", 
+            "sha256": "f37b5b0b4ad4f5c24b7ff7a528e09423398c331d2e06871d958dc0d1904f05a4", 
+            "urls": [], 
+            "crc32": "85F2EBAA", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/f37b5b0b4ad4f5c24b7ff7a528e09423398c331d2e06871d958dc0d1904f05a4", 
+            "ssdeep": null, 
+            "size": 32831, 
+            "sha512": "5bfde72fc90a337717b7892e5c97adae73419f72b1f8bf54217948a89b5cd8f054f1cacc319a35754ad54c816bb60174f2af54e4307646b09da741a95b9569a9", 
+            "md5": "00706073127aff5996a9eb5315e8febb"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "2fa01e9f-2377-4b78-8ed2-2c173d844e09", 
+        "parent_file_sha256": null, 
+        "probes_total": 16, 
+        "scan_date": 1647718490, 
+        "name": "f37b5b0b4ad4f5c24b7ff7a528e09423398c331d2e06871d958dc0d1904f05a4", 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "Google Chrome extension, version 3", 
+            "sha1": "990520a6f893c52a8f6222a973aa2a681821ebdc", 
+            "tags": [], 
+            "timestamp_first_scan": 1647163812.09, 
+            "timestamp_last_scan": 1647718501.19, 
+            "sha256": "f37b5b0b4ad4f5c24b7ff7a528e09423398c331d2e06871d958dc0d1904f05a4", 
+            "md5": "00706073127aff5996a9eb5315e8febb", 
+            "size": 32831
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.14, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-02-04_03"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.09, 
+                    "version": "1.1.18900.3", 
+                    "results": null, 
+                    "virus_database_version": "1.359.1348.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.17, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-31"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.78, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-03-11 01:06:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.02, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "61ad92b8-1e6f6 (2022-02-04)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.05, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.03, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.8, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.91093 (04/02/2022)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.0, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10247"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.41, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.90 (01 February 2022)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.16, 
+                    "version": "11.1.11.2110182032", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.5", 
+                    "results": null, 
+                    "virus_database_version": "26474"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.37, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.41, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "7a70e5ba-75a6-457b-ad2a-ff879b50f4ee", 
+        "file_sha256": "f37b5b0b4ad4f5c24b7ff7a528e09423398c331d2e06871d958dc0d1904f05a4"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "3430fc5b265df21e506ef1a801822507b5574e0647b02141c858d719c90bf315", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "6f531fa3e74f3ec4b2a527b00153a246425d36c21eee6e1996d9967bd34c9f2d", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2093, 
+                "summary": {}, 
+                "first_seen": 1647711742.228355, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 17:42:22 2022.228355 sh@7f01374bd957[2093] execve(\"/tmp/extension_0_1_6_0.crx\", [\"/tmp/extension_0_1_6_0.crx\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/extension_0_1_6_0.crx\", \"SHELL=/bin/bash\", \"SUDO_USER=root\",) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7f01374bd957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/extension_0_1_6_0.crx", 
+                                "SHELL=/bin/bash", 
+                                "\"SUDO_USER=root\","
+                            ], 
+                            "p0": "/tmp/extension_0_1_6_0.crx", 
+                            "p1": [
+                                "/tmp/extension_0_1_6_0.crx"
+                            ]
+                        }, 
+                        "time": 1647711742.228355
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 17:42:22 2022.228494 sh@7f01374e8cce[2093] openat(AT_FDCWD, \"/tmp/extension_0_1_6_0.crx\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7f01374e8cce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/extension_0_1_6_0.crx"
+                        }, 
+                        "time": 1647711742.228494
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 17:42:22 2022.228564 sh@7f01374e8f81[2093] read(3, 0x7ffdacca5520, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7f01374e8f81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7ffdacca5520"
+                        }, 
+                        "time": 1647711742.228564
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 17:42:22 2022.228622 sh@7f01374e9674[2093] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f01374e9674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1647711742.228622
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 17:42:22 2022.228755 sh@7f01374e9024[2093] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7f01374e9024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1647711742.228755
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 17:42:22 2022.228834 sh@7f01374e9024[2093] write(2, \"/tmp/extension_0_1_6_0.crx: Exec format error\", 45) = 45\n", 
+                        "api": "write", 
+                        "return_value": "45", 
+                        "category": "process", 
+                        "instruction_pointer": "7f01374e9024", 
+                        "arguments": {
+                            "p2": "45", 
+                            "p0": "2", 
+                            "p1": "/tmp/extension_0_1_6_0.crx: Exec format error"
+                        }, 
+                        "time": 1647711742.228834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 17:42:22 2022.228893 sh@7f01374e9024[2093] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f01374e9024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1647711742.228893
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2093, 
+                        "raw": "Sat Mar 19 17:42:22 2022.228952 sh@7f01374bd926[2093] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f01374bd926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1647711742.228952
+                    }
+                ], 
+                "pid": 2093, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1647711742.228355, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2093, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1647711742.228355, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-03-19 17:42:08,002 [root] DEBUG: Starting analyzer from: /tmp/tmpbHtIK4\n", 
+            "2022-03-19 17:42:08,002 [root] DEBUG: Storing results at: /tmp/SMXteHJK\n", 
+            "2022-03-19 17:42:08,002 [lib.core.packages] INFO: _guess_package_name failed\n", 
+            "2022-03-19 17:42:08,002 [lib.core.packages] INFO: Google Chrome extension, version 3\n", 
+            "2022-03-19 17:42:08,003 [lib.core.packages] INFO: extension_0_1_6_0.crx\n", 
+            "2022-03-19 17:42:10,338 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-03-19 17:42:10,341 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-03-19 17:42:10,843 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-03-19 17:42:22,219 [lib.core.packages] INFO: Process startup took 11.37 seconds\n", 
+            "2022-03-19 17:42:22,228 [root] INFO: Added new process to list with pid: 2080\n", 
+            "2022-03-19 17:42:34,246 [root] INFO: Process with pid 2080 has terminated\n", 
+            "2022-03-19 17:42:34,248 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-03-19 17:42:37,252 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-03-19 17:42:37,254 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-03-19 17:46:55,786 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-03-19 17:46:55,788 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-03-19 21:22:58,623 [cuckoo.core.scheduler] INFO: Task #2869982: acquired machine Ubuntu1904x643 (label=Ubuntu1904x643)\n", 
+            "2022-03-19 21:22:58,623 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.103 for task #2869982\n", 
+            "2022-03-19 21:22:58,969 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 4036557 (interface=vboxnet0, host=192.168.168.103)\n", 
+            "2022-03-19 21:22:59,118 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x643\n", 
+            "2022-03-19 21:22:59,803 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x643 to Snapshot\n", 
+            "2022-03-19 21:26:59,583 [cuckoo.core.guest] INFO: Starting analysis #2869982 on guest (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-03-19 21:27:00,590 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: not ready yet\n", 
+            "2022-03-19 21:27:05,660 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-03-19 21:27:05,680 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x643, ip=192.168.168.103, monitor=latest, size=72028)\n", 
+            "2022-03-19 21:27:05,850 [cuckoo.core.resultserver] DEBUG: Task #2869982: live log analysis.log initialized.\n", 
+            "2022-03-19 21:27:12,298 [cuckoo.core.resultserver] DEBUG: Task #2869982: File upload for 'shots/0001.jpg'\n", 
+            "2022-03-19 21:27:12,336 [cuckoo.core.resultserver] DEBUG: Task #2869982 uploaded file length: 171581\n", 
+            "2022-03-19 21:27:20,859 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:27:35,115 [cuckoo.core.resultserver] DEBUG: Task #2869982: File upload for 'logs/all.stap'\n", 
+            "2022-03-19 21:27:35,122 [cuckoo.core.resultserver] DEBUG: Task #2869982 uploaded file length: 1215\n", 
+            "2022-03-19 21:27:35,925 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:27:51,043 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:28:06,119 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:28:21,187 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:28:36,281 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:28:51,338 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:29:06,406 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:29:21,472 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:29:36,562 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:29:51,743 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2869982 still processing\n", 
+            "2022-03-19 21:30:06,887 [cuckoo.core.guest] INFO: Ubuntu1904x643: end of analysis reached!\n", 
+            "2022-03-19 21:30:06,903 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-03-19 21:30:06,981 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-03-19 21:30:27,412 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x643 to path /srv/cuckoo/cwd/storage/analyses/2869982/memory.dmp\n", 
+            "2022-03-19 21:30:27,413 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x643\n", 
+            "2022-03-19 21:34:49,280 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.103 for task #2869982\n", 
+            "2022-03-19 21:34:49,427 [cuckoo.core.scheduler] DEBUG: Released database task #2869982\n", 
+            "2022-03-19 21:34:49,521 [cuckoo.core.scheduler] INFO: Task #2869982: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "n$lTzC", 
+        "arrive.min.js", 
+        "hmB}-.4", 
+        "=1I1,V{A", 
+        "content.js", 
+        "*JeT9W", 
+        "2EUFHaZZ", 
+        "+\u001fiCsU.i", 
+        "\"7FO4@k", 
+        "]_#rTW", 
+        "icon-128.png", 
+        "=MZ*6*", 
+        "#4N![n", 
+        "iB4?DV", 
+        "\"hhQ\\H(", 
+        "8f|7#=<8U", 
+        "m/.Ze}d2", 
+        "?Oyn{Jq", 
+        "e\u001fLp'Z", 
+        "icon-256.png", 
+        "><fS\\>u", 
+        "JV*x|ME", 
+        "USi<.5)D", 
+        "kya4)x", 
+        "2@KV-9R", 
+        "eUUg0m", 
+        "lZ$Nj<", 
+        "5x+dBE", 
+        "b\\UgA*", 
+        ";GC)k|", 
+        "<+6\u001fK=", 
+        "6E!{MVbL", 
+        "|8o$U?", 
+        "pAjIZM)O", 
+        "R1\\`&U[", 
+        "q6\"~z\\", 
+        "icon-48.png", 
+        "tEXtSoftware", 
+        "paint.net 4.1.6", 
+        "IDAThC", 
+        ",K$zjs", 
+        ")WYy1:", 
+        "kc\\!-9", 
+        "xM/YH,R", 
+        "mV>$5j", 
+        "manifest.json", 
+        "popup.html", 
+        "eSXt5X", 
+        "c5NEbca", 
+        "IA=k{Ce", 
+        "xO#U*.q", 
+        "agGgM5", 
+        "popup.js", 
+        "0q)?Dt", 
+        "README.mduW]", 
+        "-xFbPp", 
+        "io5PAg", 
+        "U\u001f#;_w", 
+        "style.css", 
+        "=7YFEP", 
+        "5U7s\u001fT", 
+        "_metadata/", 
+        "_metadata/verified_contents.json", 
+        "~,Vz^*K", 
+        "wm^f%|", 
+        "$2Yd:0", 
+        "arrive.min.jsPK", 
+        "content.jsPK", 
+        "icon-128.pngPK", 
+        "icon-256.pngPK", 
+        "icon-48.pngPK", 
+        "manifest.jsonPK", 
+        "popup.htmlPK", 
+        "popup.jsPK", 
+        "README.mdPK", 
+        "style.cssPK", 
+        "_metadata/PK", 
+        "_metadata/verified_contents.jsonPK"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "6f531fa3e74f3ec4b2a527b00153a246425d36c21eee6e1996d9967bd34c9f2d", 
+                "dirname": ""
+            }
+        }
+    }
+}
