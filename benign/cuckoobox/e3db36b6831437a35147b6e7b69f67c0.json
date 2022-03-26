@@ -1,0 +1,399 @@
+{
+    "info": {
+        "added": 1647710777.390772, 
+        "started": 1647721499.18281, 
+        "duration": 642, 
+        "ended": 1647722141.193727, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2869779, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x647", 
+            "label": "Ubuntu1904x647", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-03-19 20:25:00", 
+            "shutdown_on": "2022-03-19 20:35:40"
+        }, 
+        "platform": null, 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-chrome-extension", 
+            "yara": [], 
+            "sha1": "8d186e9c0b77b308f467a447b2f63a7883936720", 
+            "name": "extension_1_0_1_0 (2).crx", 
+            "type": "Google Chrome extension, version 3", 
+            "sha256": "a438a5ea70cb7013e8dd0a119371efbee6d1e75f37fe33c3f79e062a35ba3a9f", 
+            "urls": [], 
+            "crc32": "DD6F9233", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/a438a5ea70cb7013e8dd0a119371efbee6d1e75f37fe33c3f79e062a35ba3a9f", 
+            "ssdeep": null, 
+            "size": 38365, 
+            "sha512": "b306eebdfbac25428dc0fa959cfab6f6d32c50406efcb02d67819347e6b15b3fd9221ebb52ba16457c4199f9257f6346631ccb5c47bc99639f778b4446e15898", 
+            "md5": "e3db36b6831437a35147b6e7b69f67c0"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "3b68777e-ff21-4640-a0e8-4e24cfd323e8", 
+        "parent_file_sha256": null, 
+        "probes_total": 16, 
+        "scan_date": 1647714942, 
+        "name": "a438a5ea70cb7013e8dd0a119371efbee6d1e75f37fe33c3f79e062a35ba3a9f", 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "Google Chrome extension, version 3", 
+            "sha1": "8d186e9c0b77b308f467a447b2f63a7883936720", 
+            "tags": [], 
+            "timestamp_first_scan": 1647397099.3, 
+            "timestamp_last_scan": 1647714954.26, 
+            "sha256": "a438a5ea70cb7013e8dd0a119371efbee6d1e75f37fe33c3f79e062a35ba3a9f", 
+            "md5": "e3db36b6831437a35147b6e7b69f67c0", 
+            "size": 38365
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.15, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-02-04_03"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.13, 
+                    "version": "1.1.18900.3", 
+                    "results": null, 
+                    "virus_database_version": "1.359.1348.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.15, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-12-31"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 3.8, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-03-11 01:06:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": -1, 
+                    "version": null, 
+                    "error": "job error"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.21, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.05, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.25, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.25, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.91093 (04/02/2022)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 4.63, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10247"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 7.39, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.90 (01 February 2022)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.11.2110182032", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.5", 
+                    "results": null, 
+                    "virus_database_version": "26474"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 7.36, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.42, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "816ee251-4640-4a5a-9431-a489164e75bc", 
+        "file_sha256": "a438a5ea70cb7013e8dd0a119371efbee6d1e75f37fe33c3f79e062a35ba3a9f"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-03-19 17:26:17,003 [root] DEBUG: Starting analyzer from: /tmp/tmpoDewK6\n", 
+            "2022-03-19 17:26:17,003 [root] DEBUG: Storing results at: /tmp/bkeRoUACUS\n", 
+            "2022-03-19 17:26:17,004 [lib.core.packages] INFO: _guess_package_name failed\n", 
+            "2022-03-19 17:26:17,004 [lib.core.packages] INFO: Google Chrome extension, version 3\n", 
+            "2022-03-19 17:26:17,004 [lib.core.packages] INFO: extension_1_0_1_0 (2).crx\n", 
+            "2022-03-19 17:26:19,353 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-03-19 17:26:19,854 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-03-19 17:26:19,855 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-03-19 17:26:31,106 [lib.core.packages] INFO: Process startup took 11.25 seconds\n", 
+            "2022-03-19 17:26:31,107 [root] INFO: Added new process to list with pid: 2066\n", 
+            "2022-03-19 17:26:46,129 [root] INFO: Process with pid 2066 has terminated\n", 
+            "2022-03-19 17:26:46,130 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-03-19 17:26:49,134 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-03-19 17:26:49,136 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-03-19 17:30:04,597 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-03-19 17:30:04,597 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-03-19 20:24:59,540 [cuckoo.core.scheduler] INFO: Task #2869779: acquired machine Ubuntu1904x647 (label=Ubuntu1904x647)\n", 
+            "2022-03-19 20:24:59,541 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.107 for task #2869779\n", 
+            "2022-03-19 20:24:59,922 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3971723 (interface=vboxnet0, host=192.168.168.107)\n", 
+            "2022-03-19 20:25:00,066 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x647\n", 
+            "2022-03-19 20:25:00,753 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x647 to Snapshot\n", 
+            "2022-03-19 20:28:30,823 [cuckoo.core.guest] INFO: Starting analysis #2869779 on guest (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2022-03-19 20:28:31,830 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: not ready yet\n", 
+            "2022-03-19 20:28:36,857 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2022-03-19 20:28:36,877 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x647, ip=192.168.168.107, monitor=latest, size=72028)\n", 
+            "2022-03-19 20:28:37,089 [cuckoo.core.resultserver] DEBUG: Task #2869779: live log analysis.log initialized.\n", 
+            "2022-03-19 20:28:43,094 [cuckoo.core.resultserver] DEBUG: Task #2869779: File upload for 'shots/0001.jpg'\n", 
+            "2022-03-19 20:28:43,145 [cuckoo.core.resultserver] DEBUG: Task #2869779 uploaded file length: 171585\n", 
+            "2022-03-19 20:28:52,040 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:29:07,099 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:29:09,224 [cuckoo.core.resultserver] DEBUG: Task #2869779: File upload for 'logs/all.stap'\n", 
+            "2022-03-19 20:29:09,227 [cuckoo.core.resultserver] DEBUG: Task #2869779 uploaded file length: 0\n", 
+            "2022-03-19 20:29:22,157 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:29:37,226 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:29:52,283 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:30:07,344 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:30:22,406 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:30:37,479 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:30:52,558 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:31:07,629 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:31:22,696 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2869779 still processing\n", 
+            "2022-03-19 20:31:37,754 [cuckoo.core.guest] INFO: Ubuntu1904x647: end of analysis reached!\n", 
+            "2022-03-19 20:31:37,765 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-03-19 20:31:37,840 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-03-19 20:31:52,799 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x647 to path /srv/cuckoo/cwd/storage/analyses/2869779/memory.dmp\n", 
+            "2022-03-19 20:31:52,800 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x647\n", 
+            "2022-03-19 20:35:40,781 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.107 for task #2869779\n", 
+            "2022-03-19 20:35:40,922 [cuckoo.core.scheduler] DEBUG: Released database task #2869779\n", 
+            "2022-03-19 20:35:41,046 [cuckoo.core.scheduler] INFO: Task #2869779: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "MHY[li;", 
+        "bootstrap.min.css", 
+        "VIvt09*", 
+        "&MtC9o", 
+        "x}pC4*6", 
+        "+%Ou^')", 
+        "M!!@ s", 
+        "cQ\"R>Iy", 
+        "FR7vR7", 
+        "S76S7fS7", 
+        "'jnf(T", 
+        "TY_k_e}", 
+        "$86n]uze", 
+        "XE4|3~", 
+        "1UG(Wb", 
+        "t:UXm\"", 
+        "qexW>m", 
+        "GRVaQ)", 
+        "V%T. d", 
+        "\u001f><??O", 
+        "pK p; _>", 
+        "_`d2R7", 
+        "zeU$y\\", 
+        "K'F3eY", 
+        "V_YRl6", 
+        "z:6v^G", 
+        "DKRt<>", 
+        "r,q4}a", 
+        "qU)H* ", 
+        "CULJ.J", 
+        "RT!%B-", 
+        "0in=QA", 
+        "[OTP1o8QA", 
+        "0in=SA", 
+        "Ha3ItH", 
+        "]ON\\O^", 
+        "wAKF[K", 
+        "8\\v\"bF", 
+        "wBeF\\K", 
+        "E\"5CeF^", 
+        "ewAeF[K", 
+        "0BeK)f", 
+        "index.html", 
+        "background.js", 
+        "bootstrap-grid.min.css", 
+        "-Fh'y>d", 
+        "Nr[hh'A~", 
+        "2G;q8#O", 
+        "=4T+vm4", 
+        "5ml}mU", 
+        "Aw( eUz", 
+        "Z!2-TT`0*T", 
+        "_FYrNw", 
+        "128.png", 
+        "gG_Wi\u001f", 
+        "w@@ppTTllJJjjVV^", 
+        "BY[[[_", 
+        "index.js", 
+        "6oM6kl", 
+        "T:=LA&", 
+        "UE|2ApG", 
+        "4{neF+]", 
+        "index.css", 
+        "E\u001f6kR3", 
+        "MY'$%MZlS", 
+        "FOyCJ*", 
+        "fBmqEmRIg", 
+        "logo/black-contrast.png", 
+        "tEXtSoftware", 
+        "www.inkscape.org", 
+        "logo/white-contrast.png", 
+        "bR6JXI", 
+        "l47VYq", 
+        "#US%TT", 
+        ");GLPuR", 
+        "RffW3e", 
+        "manifest.jsonm", 
+        "_locales/", 
+        "_locales/en/", 
+        "_locales/en/messages.json", 
+        "mode.js", 
+        "K\u001fhcgYv", 
+        "_metadata/", 
+        "_metadata/verified_contents.json", 
+        "<a}]Bgk<^", 
+        "U/lK3Hnn", 
+        "bootstrap.min.cssPK", 
+        "index.htmlPK", 
+        "background.jsPK", 
+        "bootstrap-grid.min.cssPK", 
+        "128.pngPK", 
+        "index.jsPK", 
+        "index.cssPK", 
+        "logo/PK", 
+        "logo/black-contrast.pngPK", 
+        "logo/white-contrast.pngPK", 
+        "manifest.jsonPK", 
+        "_locales/PK", 
+        "_locales/en/PK", 
+        "_locales/en/messages.jsonPK", 
+        "mode.jsPK", 
+        "_metadata/PK", 
+        "_metadata/verified_contents.jsonPK"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
