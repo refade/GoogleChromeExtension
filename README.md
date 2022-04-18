@@ -112,7 +112,7 @@ Antivírus |	VirusShare_001627d61a1bde3478ca4965e738dc1e |	VirusShare_075efef8c9
 --------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------
 ALYac|Trojan.Linux.Generic.69575|Gen:Variant.Backdoor.Linux.Tsunami.1|Trojan.Linux.GenericA.73451|
 AVG|ELF:DDoS-S [Trj]|ELF:Gafgyt-DO [Trj]|ELF:DDoS-S [Trj]|
-Acronis|Undetected|Undetected|Undetected| 
+Acronis|False Positive|False Positive|False Positive| 
 Ad-Aware|Trojan.Linux.Generic.69575|Gen:Variant.Backdoor.Linux.Tsunami.1|Trojan.Linux.GenericA.73451|
 AhnLab-V3|Linux/Mirai.Gen6|Linux/Tsunami.Gen|Linux/Gafgyt.Gen|
 Antiy-AVL|Trojan[Backdoor]/Linux.Gafgyt.a|GrayWare/Linux.Generic|Trojan[Backdoor]/Linux.Gafgyt.ac|
@@ -120,12 +120,12 @@ Arcabit|Trojan.Linux.Generic.D10FC7|Trojan.Backdoor.Linux.Tsunami.1|Trojan.Linux
 Avast|ELF:DDoS-S [Trj]|ELF:Gafgyt-DO [Trj]|ELF:DDoS-S [Trj]|
 Avast-Mobile|ELF:DDoS-S [Trj]|ELF:Tsunami-CR [Trj]|ELF:DDoS-S [Trj]|
 Avira|LINUX/Gafgyt.opnd|LINUX/Tsunami.wkuvt|LINUX/Gafgyt.opnd|
-Baidu|Undetected|Undetected|Undetected| 
+Baidu|False Positived|False Positive|False Positived| 
 BitDefender|Trojan.Linux.Generic.69575|Gen:Variant.Backdoor.Linux.Tsunami.1|Trojan.Linux.GenericA.73451|
 BitDefenderTheta|Gen:NN.Mirai.34608|Gen:NN.Mirai.34608|Gen:NN.Mirai.34608|
-Bkav|Undetected|Undetected|Undetected| 
-CAT-QuickHeal|Undetected|Elf.Trojan.A1198970|Undetected| 
-CMC|Undetected|Undetected|Undetected| 
+Bkav|False Positive|False Positived|False Positived| 
+CAT-QuickHeal|False Positive|Elf.Trojan.A1198970|False Positive| 
+CMC|False Positive|False Positive|False Positive| 
 ClamAV|Unix.Malware.Agent-6769357-0|Unix.Trojan.Mirai-5607483-0|Unix.Trojan.Gafgyt-111|
 Comodo|Malware@#3o8smwc385jui|Malware@#3j0a9lm761bhc|Malware@#1vbephabp2pmb|
 Cynet|Malicious (score: 85)|Malicious (score: 85)|Malicious (score: 85)|
@@ -137,41 +137,41 @@ F-Secure|Malware.LINUX/Gafgyt.opnd|Malware.LINUX/Tsunami.wkuvt|Malware.LINUX/Gaf
 FireEye|Trojan.Linux.Generic.69575|Gen:Variant.Backdoor.Linux.Tsunami.1|Trojan.Linux.GenericA.73451|
 Fortinet|ELF/Mirai.AE!tr|ELF/Tsunami.NDJ!tr|ELF/Gafgyt.UN!tr.bdr|
 GData|Linux.Trojan.Gafgyt.A|Linux.Trojan.Gafgyt.A|Linux.Trojan.Gafgyt.B|
-Gridinsoft|Undetected|Undetected|Undetected| 
+Gridinsoft|False Positive|False Positive|False Positive| 
 Ikarus|Trojan.Linux.Mirai|Trojan.Linux.Fgt|Trojan.Linux.Fgt|
 Jiangmin|Backdoor.Linux.cbip|Backdoor.Linux.ksj|Backdoor.Linux.gmy|
-K7AntiVirus|Undetected|Undetected|Undetected| 
-K7GW|Undetected|Undetected|Undetected| 
+K7AntiVirus|False Positive|False Positive|False Positive| 
+K7GW|False Positive|False Positive|False Positive| 
 Kaspersky|HEUR:Backdoor.Linux.Gafgyt.a|HEUR:Backdoor.Linux.Tsunami.bh|HEUR:Backdoor.Linux.Gafgyt.ac|
-Kingsoft|Undetected|Undetected|Undetected| 
-Lionic|Trojan.Linux.Gafgyt.4!c|malware (ai score=99)|Undetected| 
-MAX|malware (ai score=99)|Undetected|malware (ai score=98)
-Malwarebytes|Undetected|Trojan.Malware.121218.susgen|Undetected| 
+Kingsoft|False Positive|False Positive|False Positive| 
+Lionic|Trojan.Linux.Gafgyt.4!c|malware (ai score=99)|False Positive| 
+MAX|malware (ai score=99)|False Positive|malware (ai score=98)
+Malwarebytes|False Positive|Trojan.Malware.121218.susgen|False Positive| 
 MaxSecure|Trojan.Malware.121218.susgen|Linux/Gafgyt.h|Trojan.Malware.121218.susgen|
 McAfee|Linux/Mirai.g|Linux/Gafgyt.h|Linux/Gafgyt.r|
 McAfee-GW-Edition|Linux/Mirai.g|Gen:Variant.Backdoor.Linux.Tsunami.1|Linux/Gafgyt.r|
 MicroWorld-eScan|Trojan.Linux.Generic.69575|Backdoor:Linux/Gafgyt.AF!MTB|Trojan.Linux.GenericA.73451|
 Microsoft|DDoS:Linux/Gafgyt.YA!MTB|Trojan.ElfArm32.Tsunami.ejtrus|Backdoor:Linux/Gafgyt.AF!MTB|
-NANO-Antivirus|Trojan.ElfArm32.Mirai.fkvjsm|Undetected|Trojan.ElfArm32.Gafgyt.emzwvw|
-Panda|Undetected|Linux/Backdoor.9d5|Undetected| 
+NANO-Antivirus|Trojan.ElfArm32.Mirai.fkvjsm|False Positive|Trojan.ElfArm32.Gafgyt.emzwvw|
+Panda|False Positive|Linux/Backdoor.9d5|False Positive| 
 Qihoo-360|Linux/Backdoor.812|Trojan.Gafgyt/Linux!1.A480 (CLASSIC)|Linux/Trojan.DDoS.adc|
 Rising|Backdoor.Mirai/Linux!1.BAF6 (CLASSIC)|Undetected|Backdoor.Gafgyt/Linux!1.A512 (CLASSIC)|
-SUPERAntiSpyware|Undetected|Undetected|Undetected| 
-Sangfor|Undetected|Linux/Tsunami-A|Malware.ELF-Script.Save.07a8c2d7|
+SUPERAntiSpyware|False Positive|False Positive|False Positive| 
+Sangfor|False Positive|Linux/Tsunami-A|Malware.ELF-Script.Save.07a8c2d7|
 Sophos|Linux/DDoS-CIA|Trojan.Gen.NPE|Linux/DDoS-BI|
-Symantec|Trojan.Gen.NPE|Undetected|Linux.Lightaidra|
-TACHYON|Undetected|Backdoor.Linux.Gafgyt.ya|Undetected| 
-Tencent|Backdoor.Linux.Gafgyt.ff|Undetected|Backdoor.Linux.Gafgyt.ym|
-TotalDefense|Undetected|Backdoor.Linux.BASHLITE.SMJC|Undetected| 
+Symantec|Trojan.Gen.NPE|False Positive|Linux.Lightaidra|
+TACHYON|False Positive|Backdoor.Linux.Gafgyt.ya|False Positive| 
+Tencent|Backdoor.Linux.Gafgyt.ff|False Positive|Backdoor.Linux.Gafgyt.ym|
+TotalDefense|False Positive|Backdoor.Linux.BASHLITE.SMJC|False Positive| 
 TrendMicro|Backdoor.Linux.BASHLITE.SMJC|Backdoor.Linux.BASHLITE.SMJC|Backdoor.Linux.BASHLITE.SMJC|
 TrendMicro-HouseCall|Backdoor.Linux.BASHLITE.SMJC|Undetected|Backdoor.Linux.BASHLITE.SMJC|
-VBA32|Undetected|Undetected|Undetected| 
-VIPRE|Undetected|Undetected|Undetected| 
-ViRobot|Undetected|Undetected|Undetected| 
-Yandex|Undetected|Backdoor.Tsunami.Linux.379|Undetected| 
-Zillya|Backdoor.Mirai.Linux.38039|HEUR:Backdoor.Linux.Tsunami.bh|Undetected| 
-ZoneAlarm|HEUR:Backdoor.Linux.Gafgyt.a|Undetected|HEUR:Backdoor.Linux.Gafgyt.ac|
-Zoner|Undetected|Undetected|Undetected| 
+VBA32|False Positive|False Positive|False Positive| 
+VIPRE|False Positive|False Positive|False Positive| 
+ViRobot|False Positive|False Positive|False Positive| 
+Yandex|False Positive|Backdoor.Tsunami.Linux.379|False Positive| 
+Zillya|Backdoor.Mirai.Linux.38039|HEUR:Backdoor.Linux.Tsunami.bh|False Positive| 
+ZoneAlarm|HEUR:Backdoor.Linux.Gafgyt.a|False Positive|HEUR:Backdoor.Linux.Gafgyt.ac|
+Zoner|False Positived|False Positive|False Positive| 
 
 
 ## Materials and Methods
