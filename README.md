@@ -120,10 +120,10 @@ Arcabit|Trojan.Linux.Generic.D10FC7|Trojan.Backdoor.Linux.Tsunami.1|Trojan.Linux
 Avast|ELF:DDoS-S [Trj]|ELF:Gafgyt-DO [Trj]|ELF:DDoS-S [Trj]|
 Avast-Mobile|ELF:DDoS-S [Trj]|ELF:Tsunami-CR [Trj]|ELF:DDoS-S [Trj]|
 Avira|LINUX/Gafgyt.opnd|LINUX/Tsunami.wkuvt|LINUX/Gafgyt.opnd|
-Baidu|False Positived|False Positive|False Positived| 
+Baidu|False Positive|False Positive|False Positive| 
 BitDefender|Trojan.Linux.Generic.69575|Gen:Variant.Backdoor.Linux.Tsunami.1|Trojan.Linux.GenericA.73451|
 BitDefenderTheta|Gen:NN.Mirai.34608|Gen:NN.Mirai.34608|Gen:NN.Mirai.34608|
-Bkav|False Positive|False Positived|False Positived| 
+Bkav|False Positive|False Positive|False Positive| 
 CAT-QuickHeal|False Positive|Elf.Trojan.A1198970|False Positive| 
 CMC|False Positive|False Positive|False Positive| 
 ClamAV|Unix.Malware.Agent-6769357-0|Unix.Trojan.Mirai-5607483-0|Unix.Trojan.Gafgyt-111|
@@ -171,7 +171,7 @@ ViRobot|False Positive|False Positive|False Positive|
 Yandex|False Positive|Backdoor.Tsunami.Linux.379|False Positive| 
 Zillya|Backdoor.Mirai.Linux.38039|HEUR:Backdoor.Linux.Tsunami.bh|False Positive| 
 ZoneAlarm|HEUR:Backdoor.Linux.Gafgyt.a|False Positive|HEUR:Backdoor.Linux.Gafgyt.ac|
-Zoner|False Positived|False Positive|False Positive| 
+Zoner|False Positive|False Positive|False Positive| 
 
 
 ## Materials and Methods
